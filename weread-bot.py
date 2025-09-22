@@ -157,7 +157,7 @@ class LoggingConfig:
 class ReadingConfig:
     """阅读配置"""
     mode: str = "smart_random"
-    target_duration: str = "60-70"
+    target_duration: str = "90-270"
     reading_interval: str = "25-35"
     use_curl_data_first: bool = True
     fallback_to_config: bool = True
